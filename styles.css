@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo:wght@500&family=Ranchers&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo:wght@500&family=Ranchers&family=Roboto+Mono&display=swap");
 
 html {
-  font-family: 'Ranchers', sans-serif;
+  font-family: "Ranchers", sans-serif;
 }
 
 body {
@@ -38,16 +38,17 @@ body {
   border-radius: 0.5rem;
 }
 
-.win-img, .lose-img {
-    margin: 0 auto;
-    display: block;
-    height: 55%;
-    width: 55%;
+.win-img,
+.lose-img {
+  margin: 0 auto;
+  display: block;
+  height: 55%;
+  width: 55%;
 }
 
 .mr-spock {
-    height: 50%;
-    width: 50%;
+  height: 50%;
+  width: 50%;
 }
 
 .gun {
@@ -56,12 +57,12 @@ body {
 }
 
 #title {
-    margin: 10px;
-    padding: 0 15px;
-    border: 3px solid black;
-    color: white;
-    background-color: #00a078;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  padding: 0 15px;
+  border: 3px solid black;
+  color: white;
+  background-color: #00a078;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 #scores {
@@ -72,60 +73,61 @@ body {
 }
 
 #scores h3 {
-    padding: 15px;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    background-color: #00a078;
-    border: 3px solid black;
-    margin: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  background-color: #00a078;
+  border: 3px solid black;
+  margin: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-#player-score, #cpu-score {
-    font-size: 10vh;
-    border: 2px solid white;
-    padding: 10px;
-    margin: 10px;
-    color: white;
+#player-score,
+#cpu-score {
+  font-size: 10vh;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+  color: white;
 }
 
 .message {
-    margin: 1rem auto;
-    width: 30rem;
-    text-align: center;
-    padding: 1rem;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 1rem auto;
+  width: 30rem;
+  text-align: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 #controls {
-    margin: 1rem auto;
-    text-align: center;
-    padding: 1rem;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: row;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
 }
 
 button {
-    font-family: 'Archivo', sans-serif;
-    font-size: 125%;
-    border: 1px solid crimson;
-    background: crimson;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0.5rem;
-    padding: 1rem 2rem;
-    color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 125%;
+  border: 1px solid crimson;
+  background: crimson;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  color: white;
 }
 
 button:hover {
-    background: #ff6987;
+  background: #ff6987;
 }
 
-button #spock-btn {
-    cursor: help;
+#spock-btn {
+  cursor: help;
 }
