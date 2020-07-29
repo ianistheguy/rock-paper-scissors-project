@@ -118,7 +118,6 @@ button {
   border: 1px solid crimson;
   background: crimson;
   border-radius: 5px;
-  cursor: pointer;
   margin: 0.5rem;
   padding: 1rem 2rem;
   color: white;
@@ -126,6 +125,10 @@ button {
 
 button:hover {
   background: #ff6987;
+}
+
+#rock-btn, #paper-btn, #scissors-btn, #close, #restart {
+  cursor: pointer;
 }
 
 #spock-btn {
