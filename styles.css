@@ -125,3 +125,7 @@ button {
 button:hover {
     background: #ff6987;
 }
+
+button #spock-btn {
+    cursor: help;
+}
