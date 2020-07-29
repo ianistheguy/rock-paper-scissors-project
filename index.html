@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Rock, Paper, Scissors</h1>
+    </div>
+    <div id="scores">
+      <h3>Player Score</h3>
+      <span id="player-score">0</span>
+      <span id="cpu-score">0</span>
+      <h3>CPU Score</h3>
+    </div>
+    <div>
+      <div class="message">
+        <h2>The first player to score 5 points wins.</h2>
+      </div>
+      <div class="modal">
+        <div id="result" class="modal-content"></div>
+      </div>
+    </div>
+    <div id="controls">
+      <button id="rock-btn">ROCK <i class="fa fa-hand-rock-o fa-3"></i></button>
+      <button id="paper-btn">PAPER <i class="fa fa-hand-paper-o fa-3"></i></button>
+      <button id="scissors-btn">SCISSORS <i class="fa fa-hand-scissors-o fa-3"></i></button>
+      <!-- <button id="gun-btn">GUN <i class="fa fa-crosshairs fa-3"></i></button> -->
+      <button id="spock-btn">SPOCK <i class="fa fa-hand-spock-o fa-3"></i></button>
+    </div>
+    <div id="sounds">
+      <audio src="sounds/final-fantasy-vii-victory-fanfare.mp3" class="win-game"></audio>
+      <audio src="sounds/the-price-is-right-losing-horn.mp3" class="lose-game"></audio>
+      <audio src="sounds/sonic-rings.mp3" class="win-round"></audio>
+      <audio src="sounds/blowing-a-raspberry.mp3" class="lose-round"></audio>
+      <audio src="sounds/good-bad-ugly.mp3" class="gun"></audio>
+      <audio src="sounds/illogical-attitude.mp3" class="mr-spock"></audio>
+    </div>
+  </body>
+</html>
