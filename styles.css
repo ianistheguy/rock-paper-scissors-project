@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo:wght@500&family=Ranchers&family=Roboto+Mono&display=swap");
 
+:root {
+  --modal-duration: 1s;
+}
+
 html {
   font-family: "Ranchers", sans-serif;
 }
@@ -25,6 +29,8 @@ body {
   display: none;
   transform: scale(1.1);
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  animation-duration: var(--modal-duration);
+  animation-name: modalopen;
 }
 
 .modal-content {
@@ -121,6 +127,7 @@ button {
   margin: 0.5rem;
   padding: 1rem 2rem;
   color: white;
+  outline-style: none;
 }
 
 button:hover {
@@ -133,4 +140,14 @@ button:hover {
 
 #spock-btn {
   cursor: help;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
